@@ -23,7 +23,7 @@ public class Day6 {
             fishes[(int) x[i]]++;
         reader.close();
         //I want to iterate over the number of days here, and each day simulate a reproduction cycle
-        // by adding each
+        // by moving each number to the next cycle, and duplicating day0 fish to day 8 and adding the dupe to day6 with day7 fish
         for(int i = 0; i < days; i++){
             double[] temp = new double[9];
             temp[8] = fishes[0];
@@ -41,7 +41,6 @@ public class Day6 {
         for(double y : fishes){
             countOfFishes += y;
         }
-        System.out.print(new BigDecimal(countOfFishes).toPlainString());
-        System.out.println();
+        System.out.println(new BigDecimal(countOfFishes).toPlainString());
     }
 }
