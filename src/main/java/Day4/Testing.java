@@ -14,8 +14,10 @@ public class Testing {
 //            }
 //        }
 //        System.out.println(s);
-        int[] g = new int[9];
-        System.out.println(Arrays.toString(g));
+//        int[] g = new int[9];
+//        System.out.println(Arrays.toString(g));
+
+        System.out.println((98 - 97 -3) % 26 + 97);
     }
 
 
