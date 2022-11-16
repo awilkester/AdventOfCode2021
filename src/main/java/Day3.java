@@ -9,6 +9,7 @@ import java.util.List;
 public class Day3 {
 
     public static void main(String[] args) throws IOException {
+
         Day3 day3 = new Day3();
         List<String> input = day3.readLines("src/main/resources/day3.txt");
         int gamma = day3.findGamma(input);
